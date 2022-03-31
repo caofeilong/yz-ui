@@ -1,0 +1,33 @@
+{
+  "description": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:utils": "pnpm run -C packages/utils build",
+    "build:ui": "pnpm run -C packages/yz-ui build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@rollup/plugin-typescript": "^8.3.1",
+    "@typescript-eslint/eslint-plugin": "^5.16.0",
+    "@typescript-eslint/parser": "^5.16.0",
+    "@vitejs/plugin-vue": "^2.2.4",
+    "@vue/eslint-config-airbnb": "^6.0.0",
+    "@vue/eslint-config-typescript": "^10.0.0",
+    "eslint": "^8.12.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-airbnb-typescript": "^16.1.4",
+    "eslint-import-resolver-alias": "^1.1.2",
+    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-vue": "^8.5.0",
+    "eslint-plugin-vuejs-accessibility": "^1.1.1",
+    "rollup": "^2.70.1",
+    "typescript": "^4.6.3",
+    "vite": "^2.8.6"
+  },
+  "dependencies": {
+    "jquery": "^3.6.0",
+    "vue": "^3.2.31"
+  }
+}
