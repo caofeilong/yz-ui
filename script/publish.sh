@@ -1,8 +1,8 @@
 
 
 
-pnpm run  build:utils
+npm run  build:utils
 
 cd ./packages/utils
 
-pnpm publish
+npm publish
