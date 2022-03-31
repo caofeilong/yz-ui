@@ -1,8 +1,9 @@
 
 
+npm install -g pnpm
 
-npm run  build:utils
+pnpm run  build:utils
 
 cd ./packages/utils
 
-npm publish
+pnpm publish
