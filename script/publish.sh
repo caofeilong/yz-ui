@@ -6,6 +6,9 @@ pnpm i
 
 pnpm run  build:utils
 
-cd ./packages/utils
+pnpm version --filter  @you-ui/utils  
+pnpm publish --access public  --filter  @you-ui/utils  -no-git-checks
+# pnpm publish --access public  -no-git-checks
+npm version patch
 
-pnpm publish
+# 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

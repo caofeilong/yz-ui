@@ -3,7 +3,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build:utils": "pnpm run -C packages/utils build",
-    "build:ui": "pnpm run -C packages/yz-ui build"
+    "build:ui": "pnpm run -C packages/you-ui build"
   },
   "keywords": [],
   "author": "",

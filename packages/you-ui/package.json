@@ -1,5 +1,5 @@
 {
-  "name": "yz-ui",
+  "name": "you-ui",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -11,6 +11,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@yz-ui/utils": "workspace:^1.0.0"
+    "@you-ui/utils": "workspace:^1.0.0"
   }
 }

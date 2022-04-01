@@ -54,9 +54,9 @@ importers:
 
   packages/yz-ui:
     specifiers:
-      '@yz-ui/utils': workspace:^1.0.0
+      '@@you-ui/utils': workspace:^1.0.0
     dependencies:
-      '@yz-ui/utils': link:../utils
+      '@you-ui/utils': link:../utils
 
 packages:
 
