@@ -4,6 +4,12 @@ function add(a, b) {
     }
     return a + b;
 }
+function sub(a, b) {
+    return a - b;
+}
+function sdyHi(name) {
+    return "".concat(name, " hi");
+}
 
-export { add };
+export { add, sdyHi, sub };
 //# sourceMappingURL=util.js.map

@@ -16,8 +16,12 @@ module.exports = {
   rules: {
     'import/prefer-default-export': 'off',
     'import/no-extraneous-dependencies': ['error', {
-      packageDir: ['./', './packages/yz-ui'],
-      devDependencies: ['./packages/**/*.config.ts', './packages/**/*.config.js'],
+      packageDir: ['./', './packages/you-ui'],
+      devDependencies: [
+        './packages/**/*.config.ts',
+        './packages/**/*.config.js',
+        './script/*',
+      ],
     }],
     '@typescript-eslint/no-unsafe-call': 'off',
     'import/extensions': ['error',
