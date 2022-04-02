@@ -3,12 +3,14 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build:utils": "pnpm run -C packages/utils build",
-    "build:ui": "pnpm run -C packages/you-ui build"
+    "build:ui": "pnpm run -C packages/you-ui build",
+    "publish": "jiti ./script/publish.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@changesets/cli": "^2.22.0",
     "@rollup/plugin-typescript": "^8.3.1",
     "@typescript-eslint/eslint-plugin": "^5.16.0",
     "@typescript-eslint/parser": "^5.16.0",
