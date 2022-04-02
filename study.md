@@ -1,5 +1,15 @@
 
 
+## 版本管理 changeset
+
+```
+changeset add
+changeset  version
+changeset publish
+```
+
+
+
 自己写一个vue的组件库
 
 1. nomorepo

@@ -1,6 +1,6 @@
 {
   "name": "@you-ui/utils",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "description": "",
   "main": "dist/util.js",
   "types": "dist/index.d.ts",

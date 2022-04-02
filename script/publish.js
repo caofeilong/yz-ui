@@ -1,3 +1,4 @@
+// 这个文件也不用了用 changeset 了 好用 简单
 import { prompt } from 'enquirer';
 import minimist from 'minimist';
 import semver from 'semver';
